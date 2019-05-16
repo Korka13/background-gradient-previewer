@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Background Generator</title>
+    <title>Background Gradient Previewer</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<div class="page-container">
+<div class="content-wrap">
+
+
     <h1>background gradient previewer</h1>
     <h2>Select Colors:</h2>
     <div id="colors">        
@@ -20,7 +24,9 @@
         <code id="css"></code>
         <button id="copy" data-clipboard-target="#css"><i class="far fa-copy"></i><span id="tooltip"></span></button>
     </div>
-    
+</div>
+    <footer id="footer"><a href="https://github.com/Korka13/background-gradient-previewer"><i class="fab fa-github"></i></a></footer>
+</div>
     
     <script src="js/lib/jscolor.js"></script>
     <script src="js/lib/clipboard.js"></script>

@@ -1,12 +1,45 @@
-body {
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+body {    
     color: rgba(0,0,0,.5);
     font-family: 'ZCOOL KuaiLe', cursive;
 }
 
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+.content-wrap {
+	padding-bottom: 3rem;
+}
+
+#footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+#footer a {
+    color: rgba(0,0,0,.5);
+}
+
 h1 {
+    margin: 0;
+    padding: 2rem 0;
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-size: 3rem;
+    font-size: 2.5rem;
+    max-width: 100%;
 }
 h2 {
     font-size: 2rem;
@@ -18,6 +51,7 @@ h1, h2{
 #colors{
     display: flex;
     justify-content: center;
+    max-width: 100%;
 }
 
 #color1, #color2{
@@ -35,11 +69,11 @@ h1, h2{
     outline: none;
 }
 
-
 .code{
     margin: 1rem;
     display: flex;
     justify-content: center;
+    max-width: 100%;
 }
 code{
     padding: 10px;
