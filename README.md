@@ -1,7 +1,7 @@
 # Background Gradient Previewer
 
 Select 2 colors and instantly preview a css background gradient.  
-Once you are done copy the code and paste it on your own css.
+Once you are done copy the code and paste it in your own css.
 
 Built using JavaScript, [jscolor Color Picker](http://jscolor.com/) and [clipboardjs](https://clipboardjs.com/).
 
